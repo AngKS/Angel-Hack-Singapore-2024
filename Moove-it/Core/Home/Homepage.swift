@@ -20,7 +20,7 @@ struct Homepage: View {
                         Spacer()
                             .frame(
                                 width: UIScreen.main.bounds.width,
-                                height: 150
+                                height: 134
                             )
                         ReelMapViewRepresentable(mapState: $mapState)
                             .ignoresSafeArea()
@@ -44,10 +44,10 @@ struct Homepage: View {
                                     mapState = .searchingForLocation
                                 }
                             })
-                            
-                            smallTabUtilities()
-                                .padding(.horizontal)
-                                .padding(.bottom, 8)
+//                            
+//                            smallTabUtilities()
+//                                .padding(.horizontal)
+//                                .padding(.bottom, 8)
                         }
                         .background(.thinMaterial)
                         .shadow(color: .black.opacity(0.2), radius: 8)

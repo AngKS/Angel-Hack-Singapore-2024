@@ -23,6 +23,7 @@ struct ReelMapViewRepresentable: UIViewRepresentable {
         mapView.isRotateEnabled = false
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .follow
+        mapView.showsUserTrackingButton = true
         
         return mapView
     }
@@ -138,6 +139,11 @@ extension ReelMapViewRepresentable {
                 }
             
         }
+        func getPlacesOfInterests(){
+            
+            
+            
+        }
         
         func clearMapViewAndRecentreOnUserLocation(){
             parent.mapView.removeAnnotations(parent.mapView.annotations)
@@ -147,6 +153,8 @@ extension ReelMapViewRepresentable {
                 parent.mapView.setRegion(currRegion, animated: true)
             }
         }
+        
+        
     }
 }
  
