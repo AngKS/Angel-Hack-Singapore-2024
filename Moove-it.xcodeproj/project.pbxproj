@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D53BCCD2C02506A001608C3 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53BCCC2C02506A001608C3 /* MapViewState.swift */; };
+		9D53BCD02C0271DF001608C3 /* BottomInformationSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53BCCF2C0271DF001608C3 /* BottomInformationSheet.swift */; };
+		9D53BCD22C027379001608C3 /* Blogposts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D53BCD12C027379001608C3 /* Blogposts.swift */; };
 		9D75435D2C0061BD00AEC414 /* Moove_itApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75435C2C0061BD00AEC414 /* Moove_itApp.swift */; };
 		9D75435F2C0061BD00AEC414 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D75435E2C0061BD00AEC414 /* ContentView.swift */; };
 		9D7543612C0061BE00AEC414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7543602C0061BE00AEC414 /* Assets.xcassets */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D53BCCC2C02506A001608C3 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		9D53BCCF2C0271DF001608C3 /* BottomInformationSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomInformationSheet.swift; sourceTree = "<group>"; };
+		9D53BCD12C027379001608C3 /* Blogposts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blogposts.swift; sourceTree = "<group>"; };
 		9D7543592C0061BD00AEC414 /* Moove-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Moove-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D75435C2C0061BD00AEC414 /* Moove_itApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moove_itApp.swift; sourceTree = "<group>"; };
 		9D75435E2C0061BD00AEC414 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D53BCCE2C0271CD001608C3 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9D53BCCF2C0271DF001608C3 /* BottomInformationSheet.swift */,
+				9D53BCD12C027379001608C3 /* Blogposts.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		9D7543502C0061BD00AEC414 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +114,7 @@
 		9D75436A2C00633D00AEC414 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9D53BCCE2C0271CD001608C3 /* BottomSheet */,
 				9D7543752C0063CD00AEC414 /* Root */,
 				9D7543712C0063A500AEC414 /* Home */,
 				9D7543732C0063BB00AEC414 /* MapView */,
@@ -148,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				9D75438C2C01D0A800AEC414 /* LocationSearchViewModel.swift */,
+				9D53BCCC2C02506A001608C3 /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -291,16 +308,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D7543792C0066D900AEC414 /* SearchBar.swift in Sources */,
+				9D53BCCD2C02506A001608C3 /* MapViewState.swift in Sources */,
 				9D75435F2C0061BD00AEC414 /* ContentView.swift in Sources */,
 				9D7543892C01C66500AEC414 /* LocationSearchResultComponent.swift in Sources */,
 				9D75438B2C01CA6200AEC414 /* Homepage.swift in Sources */,
 				9D7543872C01C17D00AEC414 /* LocationSearchView.swift in Sources */,
 				9D75438D2C01D0A800AEC414 /* LocationSearchViewModel.swift in Sources */,
+				9D53BCD22C027379001608C3 /* Blogposts.swift in Sources */,
 				9D75435D2C0061BD00AEC414 /* Moove_itApp.swift in Sources */,
 				9D75437B2C00687D00AEC414 /* smallTabUtilities.swift in Sources */,
 				9D7543842C00868800AEC414 /* RealtimeWidgetsUtility.swift in Sources */,
 				9D7543822C007DB700AEC414 /* realTimeWidget.swift in Sources */,
 				9D75438F2C01E42800AEC414 /* ReelMap_MapViewRepresentable.swift in Sources */,
+				9D53BCD02C0271DF001608C3 /* BottomInformationSheet.swift in Sources */,
 				9D75437E2C0069BE00AEC414 /* Tabs.swift in Sources */,
 				9D7543912C01EB9A00AEC414 /* LocationManager.swift in Sources */,
 			);
