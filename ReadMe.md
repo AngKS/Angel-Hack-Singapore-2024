@@ -4,10 +4,6 @@
 
 https://github.com/AngKS/Angel-Hack-Singapore-2024/assets/60446729/b5ee88e3-d394-43f0-8932-cb0e90d7e439
 
-<!-- add image -->
-<p align="center">
-  <img src="https://github.com/AngKS/Angel-Hack-Singapore-2024/blob/main/assets/appIcon.jpg?raw=true" alt="App Logo" width="200" height="200">
-</p>
 
 LesSGo is a mobile application for tourists coming to Singapore to easily navigate and commute around the island. The app provides information on the various attractions, food places, and events happening in Singapore. It also provides a feature to book tickets for attractions and events, as well as locally-curated recommendations and contents for them to explore during the public transport commute. 
 
