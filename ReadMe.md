@@ -1,5 +1,9 @@
 
 <h1 align="center">LesSGo</h1>
+
+
+https://github.com/AngKS/Angel-Hack-Singapore-2024/assets/60446729/b5ee88e3-d394-43f0-8932-cb0e90d7e439
+
 <!-- add image -->
 <p align="center">
   <img src="https://github.com/AngKS/Angel-Hack-Singapore-2024/blob/main/assets/appIcon.jpg?raw=true" alt="App Logo" width="200" height="200">
@@ -23,10 +27,6 @@ LesSGo is a mobile application for tourists coming to Singapore to easily naviga
 - [ ] First-ever SGQR code scanner for tourists (work-in-progress)
 
 ## Useful Links:
-
-
-https://github.com/AngKS/Angel-Hack-Singapore-2024/assets/60446729/b5ee88e3-d394-43f0-8932-cb0e90d7e439
-
 
 - Project Demo Video - ([link](https://drive.google.com/file/d/1P436BiR_Tt49dclun6CLHnsIM5BMNim2/view?usp=drive_link))
 
