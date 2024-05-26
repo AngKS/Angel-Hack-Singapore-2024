@@ -24,7 +24,7 @@ LesSGo is a mobile application for tourists coming to Singapore to easily naviga
 
 ## Useful Links:
 <p align="center">
-  <img src="https://github.com/AngKS/Angel-Hack-Singapore-2024/blob/main/assets/qrCode.PNG?raw=true" alt="App Logo" width="80" height="80">
+  [<img src="https://github.com/AngKS/Angel-Hack-Singapore-2024/blob/main/assets/qrCode.PNG?raw=true" alt="App Logo" width="80" height="80">](https://drive.google.com/file/d/1P436BiR_Tt49dclun6CLHnsIM5BMNim2/view?usp=drive_link)
 </p>
 
 - Project Demo Video - ([link](https://drive.google.com/file/d/1P436BiR_Tt49dclun6CLHnsIM5BMNim2/view?usp=drive_link))
