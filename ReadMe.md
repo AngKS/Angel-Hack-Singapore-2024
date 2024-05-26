@@ -26,7 +26,7 @@ LesSGo is a mobile application for tourists coming to Singapore to easily naviga
 
 - Project Demo Video - ([link](https://drive.google.com/file/d/1P436BiR_Tt49dclun6CLHnsIM5BMNim2/view?usp=drive_link))
 
-- Pitch Deck - ([link]())
+- Pitch Deck - ([link](https://drive.google.com/file/d/1qr6UDrw5Z4sN780K7u2epi95f28Ms-X9/view?usp=drive_link))
 
 
 
